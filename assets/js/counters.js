@@ -1,0 +1,1 @@
+/* Counters are initialized in main.js. */

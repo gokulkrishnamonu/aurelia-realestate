@@ -1,0 +1,2 @@
+.values-grid{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.values-grid{grid-template-columns:1fr}}

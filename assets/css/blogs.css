@@ -1,0 +1,2 @@
+.blog-grid-wide{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.blog-grid-wide{grid-template-columns:1fr}}

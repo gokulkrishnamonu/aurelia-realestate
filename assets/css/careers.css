@@ -1,0 +1,2 @@
+.career-grid{grid-template-columns:1.1fr .9fr}
+@media(max-width:900px){.career-grid{grid-template-columns:1fr}}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/index.html</loc></url>
+  <url><loc>https://www.example.com/about.html</loc></url>
+  <url><loc>https://www.example.com/projects.html</loc></url>
+  <url><loc>https://www.example.com/project-details.html</loc></url>
+  <url><loc>https://www.example.com/apartments.html</loc></url>
+  <url><loc>https://www.example.com/villas.html</loc></url>
+  <url><loc>https://www.example.com/commercial.html</loc></url>
+  <url><loc>https://www.example.com/rentals.html</loc></url>
+  <url><loc>https://www.example.com/testimonials.html</loc></url>
+  <url><loc>https://www.example.com/blogs.html</loc></url>
+  <url><loc>https://www.example.com/blog-details.html</loc></url>
+  <url><loc>https://www.example.com/careers.html</loc></url>
+  <url><loc>https://www.example.com/awards.html</loc></url>
+  <url><loc>https://www.example.com/events.html</loc></url>
+  <url><loc>https://www.example.com/handover-events.html</loc></url>
+  <url><loc>https://www.example.com/contact.html</loc></url>
+  <url><loc>https://www.example.com/privacy-policy.html</loc></url>
+  <url><loc>https://www.example.com/terms.html</loc></url>
+</urlset>
