@@ -10,6 +10,7 @@
 <meta name="robots" content="index,follow">
 <meta name="google-site-verification" content="Vs9dFCQNeG6AkfUBoslXzuTsIq5evwL-lRMhD6L0AHk" />
 
+
 <meta property="og:type" content="website">
 <meta property="og:title" content="Aurelia Developments | Top Real Estate Builders in Kerala">
 <meta property="og:description" content="Explore best flats, villas, homes and commercial properties in Trivandrum, Kochi and across Kerala.  quality real estate and find spaces designed for modern living and business.">
@@ -19,6 +20,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
 /* Homepage enhancement layer */
@@ -51,6 +53,48 @@
 }
 @media(max-width:600px){
  .trust-items,.review-grid,.award-grid,.article-grid{grid-template-columns:1fr}.project-meta{grid-template-columns:1fr 1fr}.cta-panel{padding:32px 24px}
+}
+/* ================================
+   FOOTER SOCIAL ICONS
+================================ */
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.footer-socials a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+
+  text-decoration: none;
+  font-size: 15px;
+
+  transition:
+    color 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-3px);
+}
+
+.footer-socials i {
+  line-height: 1;
 }
 </style>
 
@@ -342,20 +386,7 @@
 </section>
 </main>
 
-<footer class="footer">
- <div class="container">
-  <div class="footer-grid">
-   <div>
-    <div class="logo"><span class="logo-mark" aria-hidden="true"></span><span>AURELIA</span></div>
-    <p style="max-width:360px;color:rgba(255,255,255,.62)">Recognised among the top real estate builders in Kerala we create distinctive spaces where thoughtful architecture, quality craftsmanship and lasting value come together.</p>
-   </div>
-   <div><h4>Explore</h4><p><a href="about.html">About Us</a></p><p><a href="projects.html">Projects</a></p><p><a href="awards.html">Awards</a></p><p><a href="blogs.html">Insights</a></p></div>
-   <div><h4>Projects</h4><p><a href="apartments.html">Apartments</a></p><p><a href="villas.html">Villas</a></p><p><a href="commercial.html">Commercial</a></p><p><a href="rentals.html">Rentals</a></p></div>
-   <div><h4>Connect</h4><p>+91 484 000 0000</p><p>hello@aureliadevelopments.com</p><p>Kochi, Kerala, India</p></div>
-  </div>
-  <div class="footer-bottom"><span>© <span data-year></span> Aurelia Developments. All rights reserved.</span><span><a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div>
- </div>
-</footer>
+<footer class="footer"> <div class="container"> <div class="footer-grid"> <!-- Brand --> <div> <div class="logo"> <span class="logo-mark" aria-hidden="true"></span> <span>AURELIA</span> </div> <p style="max-width:360px;color:rgba(255,255,255,.62)"> Recognised among the top real estate builders in Kerala, we create distinctive spaces where thoughtful architecture, quality craftsmanship and lasting value come together. </p> </div> <!-- Explore --> <div> <h4>Explore</h4> <p><a href="about.html">About Us</a></p> <p><a href="projects.html">Projects</a></p> <p><a href="awards.html">Awards</a></p> <p><a href="blogs.html">Insights</a></p> </div> <!-- Projects --> <div> <h4>Projects</h4> <p><a href="apartments.html">Apartments</a></p> <p><a href="villas.html">Villas</a></p> <p><a href="commercial.html">Commercial</a></p> <p><a href="rentals.html">Rentals</a></p> </div> <!-- Connect --> <div> <h4>Connect</h4> <p>+91 484 000 0000</p> <p>hello@aureliadevelopments.com</p> <p>Kochi, Kerala, India</p> <!-- Social Media --> <div class="footer-socials"> <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Aurelia Developments on Instagram"> <i class="fab fa-instagram"></i> </a> <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Aurelia Developments on Facebook"> <i class="fab fa-facebook-f"></i> </a> <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Aurelia Developments on LinkedIn"> <i class="fab fa-linkedin-in"></i> </a> <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Aurelia Developments on YouTube"> <i class="fab fa-youtube"></i> </a> <a href="https://wa.me/914840000000" target="_blank" rel="noopener noreferrer" aria-label="Contact Aurelia Developments on WhatsApp"> <i class="fab fa-whatsapp"></i> </a> </div> </div> </div> <!-- Footer Bottom --> <div class="footer-bottom"> <span> © <span data-year></span> Aurelia Developments. All rights reserved. </span> <span> <a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a> </span> </div> </div> </footer>
 
 <script src="assets/js/main.js" defer></script>
 <script src="assets/js/navigation.js" defer></script>
@@ -363,3 +394,4 @@
 <script src="assets/js/counters.js" defer></script>
 </body>
 </html>
+
