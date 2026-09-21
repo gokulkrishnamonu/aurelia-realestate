@@ -26,3 +26,32 @@ document.addEventListener("DOMContentLoaded",()=>{
     io.observe(el);
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const dropdowns = document.querySelectorAll(".nav-dropdown");
+
+  dropdowns.forEach(function (dropdown) {
+
+    const toggle = dropdown.querySelector(".nav-dropdown-toggle");
+
+    toggle.addEventListener("click", function (e) {
+
+      e.preventDefault();
+
+      // Close other dropdowns
+      dropdowns.forEach(function (otherDropdown) {
+        if (otherDropdown !== dropdown) {
+          otherDropdown.classList.remove("open");
+        }
+      });
+
+      // Toggle current dropdown
+      dropdown.classList.toggle("open");
+
+    });
+
+  });
+
+});
